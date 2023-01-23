@@ -1,0 +1,15 @@
+.hundert{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin: 1rem;
+}
+
+.container{
+    display: flex;
+    margin: 1rem;
+}
+
+.col{
+    display: flex;
+}

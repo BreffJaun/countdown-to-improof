@@ -41,17 +41,15 @@
 
 body {
   height: 100vh;
-  border: 2px solid red;
   background-image: linear-gradient(135deg, var(--O1), var(--O2));
 }
 
 
 .countdown{
-  border: 2px solid greenyellow;
   display: flex;
   justify-content: center;
   align-items: center;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 

@@ -40,14 +40,14 @@ function App() {
     return (
       <div className="App">
         <div className='countdown'>
-          <img src={efjm} width="150px" alt="die leude habns drauf" />
+          <img src={efjm} width="100px" alt="die leude habns drauf" />
           <h1 className="c-A100">
             {countdown.days +"d "}
             {countdown.hours +"h "}
             {countdown.minutes +"m "}
             {countdown.seconds + "s "}
           </h1>
-          <p className="c-A100">It is time!</p>
+          <h2 className="c-A100">It is time!</h2>
         </div>
       </div>
     )

@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import "./style/colors.css"
+import "./style/fonts.css"
+
+
+import efjm from "./images/efjm_logo.png"
 
 function App() {
   const INITIAL = {
@@ -35,13 +40,14 @@ function App() {
     return (
       <div className="App">
         <div className='countdown'>
-          <span>{countdown.days +"d "}</span>
-          <span>{countdown.hours +"h "}</span>
-          <span>{countdown.minutes +"m "}</span>
-          <span>{countdown.seconds +"s "}</span>
-        </div>
-        <div>
-          <p>...until to "improof" yourself</p>
+          <img src={efjm} width="150px" alt="die leude habns drauf" />
+          <h1 className="c-A100">
+            {countdown.days +"d "}
+            {countdown.hours +"h "}
+            {countdown.minutes +"m "}
+            {countdown.seconds + "s "}
+          </h1>
+          <p className="c-A100">It´s time to improof!</p>
         </div>
       </div>
     )

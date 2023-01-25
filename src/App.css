@@ -1,7 +1,5 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -40,19 +38,24 @@
   color: #888;
 }
 
+
 body {
-  background-image: url('./images/efjm_1920x1080.png');
-  background-position: center;
+  height: 100vh;
+  border: 2px solid red;
+  background-image: linear-gradient(135deg, var(--O1), var(--O2));
 }
 
-.countdown {
-  margin-top: 30rem;
+
+.countdown{
+  border: 2px solid greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
 }
 
-span {
-  font-size: 3rem;
-}
 
-p {
-  font-size: 2rem;
+.App{
+  display: flex;
+  flex-direction: column;
 }

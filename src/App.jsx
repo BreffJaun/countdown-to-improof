@@ -47,7 +47,7 @@ function App() {
             {countdown.minutes +"m "}
             {countdown.seconds + "s "}
           </h1>
-          <p className="c-A100">It´s time to improof!</p>
+          <p className="c-A100">It is time!</p>
         </div>
       </div>
     )

@@ -15,7 +15,7 @@ function App() {
   }
   const [countdown, setCountdown] = useState(INITIAL);
   
-  let countDownDate = new Date("Mar 9, 2023 09:00:00").getTime();
+  let countDownDate = new Date("Mar 1, 2023 09:00:00").getTime();
   let now = new Date().getTime();
   let distance = countDownDate - now;
   let days = Math.floor(distance / (1000 * 60 * 60 * 24));
